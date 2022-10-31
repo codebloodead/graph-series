@@ -20,7 +20,7 @@ public class GraphDemo {
         }
 
 
-        System.out.println("Matrix representation");
+        System.out.println("Matrix representation by Adjacency Matrix");
         for(int i=0; i<=n; i++) {
             for(int j=0; j<matrix[i].length; j++) {
                 System.out.print(matrix[i][j]+" ");
